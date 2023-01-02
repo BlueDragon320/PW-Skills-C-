@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+int num1=10; //1010
+
+cout<<(num1<<1)<<endl;
+cout<<(num1>>5)<<endl;
+
+int num2=5; //0101
+
+cout<<(num1&num2)<<endl;
+cout<<(num1|num2)<<endl;
+
+
+
+
+    return 0;
+}
